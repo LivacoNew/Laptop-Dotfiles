@@ -3,12 +3,12 @@
 ![](Screenshots/2.png)
 
 ### Overview
-Designed for Host: ASUS Vivobook 16X 
-OS: Arch Linux 
-Desktop Manager: Hyprland
-Shell: ZSH
-Terminal: Kitty
-Web Browser: Firefox
+Designed for Host: ASUS Vivobook 16X  
+OS: Arch Linux  
+Desktop Manager: Hyprland  
+Shell: ZSH  
+Terminal: Kitty  
+Web Browser: Firefox  
 
 Most required packages can be found in PACKAGES. Not everything is there though, so you may have to manually go install some stuff.
 I'm new to this whole dotfile sharing business so apologies if I'm making things inconvenient lol.
