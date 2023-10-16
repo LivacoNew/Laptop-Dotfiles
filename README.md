@@ -37,3 +37,6 @@ Current=Elegant
 
 ### Is this outdated?
 Probably. I'm always changing about stuff, and I'll more than likely forget to update this repo in the progress.
+
+### Your config sucks 
+I know, I'm only like 3 months into this arch linux rabbithole okay.
