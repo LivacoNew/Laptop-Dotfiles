@@ -1,0 +1,32 @@
+window {
+  margin: 5px;
+  background: rgba(33, 34, 38, 30);
+  border-radius: 8px;
+}
+
+#input {
+  margin: 5px;
+}
+
+#inner-box {
+  margin: 5px;
+}
+
+#outer-box {
+  margin: 5px;
+}
+
+#scroll {
+  margin: 5px;
+}
+#entry:selected {
+  background: none;
+}
+#text:selected {
+  color: rgb(192, 122, 215);
+}
+
+#text {
+  margin: 5px;
+  color: rgb(255, 255, 255);
+}

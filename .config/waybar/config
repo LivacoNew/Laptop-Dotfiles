@@ -1,0 +1,75 @@
+{
+    "layer": "top",
+    "height": 50,
+    "spacing": 4, // Gaps between modules (4px)
+
+    "modules-left": ["cava", "clock"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["battery", "wireplumber", "cpu", "temperature", "memory", "custom/divider", "hyprland/workspaces"],
+
+    "cava": {
+        "framerate": 60,
+        "autosens": 1,
+        "bars": 12,
+        "method": "pulse",
+        "source": "auto",
+        "bar_delimiter": 0,
+        "format-icons" : ["▁", "▂", "▃", "▄", "▅", "▆", "▇", "█" ],
+        "input_delay": 4,
+    },
+    "clock": {
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip-format": "<tt><small>{calendar}</small></tt>",
+        "calender": {
+            "mode": "month",
+            "weeks-pos": "left",
+            "format": {
+                "months": "<span color='#ffead3'><b>{}</b></span>",
+                "days": "<span color='#ecc6d9'><b>{}</b></span>",
+                "weeks": "<span color='#99ffdd'><b>W{}</b></span>",
+                "weekdays": "<span color='#ffcc66'><b>{}</b></span>",
+                "today": "<span color='#ff6699'><b><u>{}</u></b></span>"
+            }
+        }
+    },
+
+
+    "battery": {
+        "states": {
+            "good": 50,
+            "warning": 30,
+            "bad": 15,
+            "critical": 5
+        },
+        "tooltip-format": "{time}",
+        "format": "{capacity}%  {icon}",
+        "format-icons": ["", "", "", "", ""],
+        "format-critical": "{capacity}% - WARNING",
+        "format-charging": "{capacity}% 󱐋",
+    },
+    "wireplumber": {
+        "format": "{volume}% ",
+        "format-muted": "",
+        "format-icons": ["", "", ""]
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "{}%",
+        "max-length": 10
+    },
+    "memory": {
+        "interval": 5,
+        "format": "{percentage}%  "
+    },
+    "temperature": {
+        "format": "({temperatureC}°C)   -"
+    },
+    "hyprland/workspaces": {
+        "active-only": false
+    },
+    "custom/divider": {
+        "format": "    "
+    }
+}
+

@@ -1,0 +1,39 @@
+# NOTE: This list was purely made by me running pacman -Q and writing down all the important stuff I saw.
+# If anything's missing, make a issue and inform me or make a PR. :)
+#
+# This also won't include system packages you should already have like linux-firmware and microcodes. Get those yourself you lazy shit.
+
+acpi 
+acpilight 
+alsa-utils 
+bluez
+bluez-utils
+cava (AUR)
+copyq
+dunst
+firefox
+git
+htop
+hyprland
+hyprpaper
+hyprpicker (AUR)
+kitty
+neofetch
+neovim
+npm
+pamixer
+pavucontrol
+pipewire
+pipewire-audio
+powertop
+pulseaudio
+pulseaudio-alsa
+pulseaudio-bluetooth
+ranger
+sddm
+sddm-elegant-theme-git (AUR)
+ttf-nerd-fonts-symbols
+ttf-nerd-fonts-symbols-common
+waybar-git (AUR)
+wofi
+zsh

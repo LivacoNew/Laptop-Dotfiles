@@ -1,0 +1,68 @@
+window#waybar {
+  color: rgb(255, 255, 255);
+  background: none;
+  border: none;
+}
+
+.modules-left {
+  background-color: rgba(33, 34, 38, 30);
+  border-radius: 8px;
+  margin: 16px 21px;
+  margin-bottom: 0;
+}
+.modules-right {
+  background-color: rgba(33, 34, 38, 30);
+  border-radius: 8px;
+  margin: 16px 21px;
+  margin-bottom: 0px;
+  padding: 0 8px;
+}
+.modules-center {
+  background-color: rgba(33, 34, 38, 30);
+  border-radius: 8px;
+  margin: 16px 21px;
+  margin-bottom: 0px;
+  padding: 0 8px;
+}
+
+
+#clock {
+  margin: 8px; 
+  margin-right: 10px;
+}
+#cava {
+  margin: 8px;
+  margin-right: 0;
+  margin-left: 10px;
+  color: rgb(192, 122, 215);
+}
+
+#battery {
+  margin-right: 6px;
+  margin-left: 4px;
+}
+#battery.good {
+    color: rgb(255, 255, 255);
+}
+#battery.warning {
+  color: rgb(230, 226, 156);
+}
+#battery.bad {
+  color: rgb(255, 95, 89);
+}
+#battery.critical {
+  color: rgb(148, 31, 27);
+}
+
+#wireplumber {
+  margin-right: 12px;
+}
+
+#workspaces button {
+  padding: 0;
+  color: rgb(255, 255, 255)
+}
+#workspaces button.active {
+  color: rgb(202, 152, 235);
+  font-weight: 800;
+}
