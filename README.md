@@ -18,6 +18,8 @@ I'm new to this whole dotfile sharing business so apologies if I'm making things
 - If your on a different laptop/machine than I am, you'll more than likely have to change the keycodes and stuff for yours in the .scripts files as well as `.config/hypr/hyprland.conf`.
 - You'll also have to change the Trackpad device in `.scripts/TrackpadToggle.sh` if you want to be able to use the disable trackpad function. Grab your device name using `hyprctl devices` and replace the `DEVICE` value at the top with it.
 - You'll have to change the SDDM theme manually in `/etc/sddm.conf` if you want to use the sddm-elegant-theme-git theme I use. Just put this in the file:
+- Make sure when you build waybar-git, you build it with Cava support if you want the visualiser in the status bar.
+
 ```
 [Theme]
 Current=Elegant
